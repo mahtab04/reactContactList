@@ -1,2 +1,0 @@
-# reactContactList
-Created with CodeSandbox

@@ -1,9 +1,15 @@
-import "./styles.css";
+import React from "react";
+import ContactList from "./components/ContactList";
 
-export default function App() {
+/**
+ * The root component of the application that renders the ContactList component.
+ */
+function App() {
   return (
     <div className="App">
-      <div>welcome</div>
+      <ContactList />
     </div>
   );
 }
+
+export default App;
