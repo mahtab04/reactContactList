@@ -27,14 +27,14 @@ class Contact extends React.Component {
             hideCard: false,
         });
     };
-
+    //handles edit contact
     handleContactEdit = () => {
         this.setState({
             showUpdateForm: true,
             hideCard: true,
         });
     };
-
+     //hnadles delete contact
     handleDeleteContact = (userId) => {
         let url = `https://jsonplaceholder.typicode.com/users/${userId}`;
         fetch(url, {

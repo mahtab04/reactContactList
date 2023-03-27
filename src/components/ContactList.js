@@ -112,7 +112,7 @@ class ContactList extends React.Component {
                     {/* Button to toggle the display of the contact form */}
                     <Row className="d-grid gap-2 mb-3">
                         <Button
-                            variant="warning"
+                            variant="primary"
                             size="lg"
                             onClick={() => this.toggleAddForm(!showAddform)}
                         >
